@@ -1,0 +1,25 @@
+#banner2-section{
+    padding-block: 50px;
+}
+
+
+.banner-image-container {
+    overflow: hidden; 
+    display: flex; 
+    justify-content: center; 
+    align-items: center; 
+    max-width: 100%; 
+    border-radius: 5px;
+}
+
+
+.banner-image-container img {
+    transition: transform 0.3s ease;
+    width: 100%; 
+    height: auto; 
+}
+
+
+.banner-image-container img:hover {
+    transform: scale(1.05); 
+}

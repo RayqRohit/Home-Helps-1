@@ -1,0 +1,82 @@
+#banner-section-1 {
+    padding-top: 140px;
+}
+
+#banner-section-2{
+    margin-top: 50px;
+}
+
+#banner-section-3{
+    margin-top: 30px;   
+}
+
+.banner-img {
+    width: 100vw;
+    height: 80vh;
+    overflow: hidden; 
+    position: relative;
+}
+
+.banner-img img {
+    width: 100%;
+    height: 100%;
+    transition: transform 0.3s ease; 
+}
+
+.banner-img img:hover {
+    transform: scale(1.05); /* Scales the image by 10% on hover */
+}
+
+
+#banner-section-3 .banner-img  {
+    width: 100vw;
+    height: 42vh;
+
+}
+
+/* features section */
+
+#features-section {
+  margin-top: 20px;
+}
+
+.feature-img{
+    width: 80vw;
+    height: 40vh;
+    overflow: hidden;
+    position: relative;
+}
+
+.feature-img img {
+    width: 100%;
+    height: 100%;
+    transition: transform 0.3s ease; 
+}
+
+/* slider section */
+
+#native-slider-section .container{
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    flex-direction: column;
+   margin-block: 45px;
+}
+
+/* native banner section */
+
+#native-banner-section {
+   margin-block: 20px;
+}
+
+#native-banner-section .native-banner-img{
+    width: 90vw;
+    height: 85vh;
+   
+}
+
+.native-banner-img img{
+    width: 100%;
+    height: 100%;
+    transition: transform 0.3s ease; 
+}

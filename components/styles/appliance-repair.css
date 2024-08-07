@@ -1,0 +1,162 @@
+#ac-repair-appliances{
+    padding-block: 50px;
+}
+
+.ac-repair-section-container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    max-width: 1300px;
+    margin: auto;
+    flex-direction: column;
+}
+
+.ac-repair-title {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    margin-bottom: 30px;
+}
+
+.ac-repair-title h1 {
+    font-family: var(--heading-font);
+    flex-grow: 1;
+}
+
+.sales-button {
+    background-color: var(--primary-color);
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-family: var(--heading-font);
+    font-size: 16px;
+}
+
+.sales-button:hover {
+    background-color: #4665eb;
+}
+
+.carousel-cell-5:first-child{
+    margin-left: 3px;
+}
+
+.carousel-cell-5 a {
+    text-decoration: none;
+    color: inherit;
+    display: flex;
+    flex-direction: column;
+    height: 100%; /* Full height of the carousel cell */
+    position: relative;
+}
+
+
+
+.carousel-cell-5 p {
+    position: absolute;
+    top: 10px; /* Distance from the top of the carousel cell */
+    left: 10px; /* Distance from the left edge */
+    right: 10px; /* Distance from the right edge */
+    margin: 0; /* Remove default margins */
+    font-size: 15px;
+    font-weight: bold;
+    color: #333;
+    background-color: rgba(255, 255, 255, 0.7); /* Optional: Background for readability */
+    padding: 10px; /* Optional: Padding around the text */
+    border-radius: 5px; /* Optional: Border radius for the background */
+}
+
+.ac-repair-title{
+    margin-bottom: 30px;
+    align-self: flex-start;
+  
+}
+
+.ac-repair-title h1 {
+    font-family: var(--heading-font);
+}
+
+
+.carousel-container {
+    position: relative;
+    width: 100%;
+    margin: auto;
+}
+
+.carousel {
+    display: flex;
+    transition: transform 0.5s ease-in-out;
+}
+
+.carousel-track-5 {
+    display: flex;
+    transition: transform 0.5s ease-in-out;
+    gap: 15px;
+}
+
+.carousel-cell-5 {
+    min-width: 18.9%;
+    /* Show 5 items at a time */
+    box-sizing: border-box;
+    /* padding: 0 10px; */
+    position: relative;
+    overflow: hidden;
+    border-radius: 11px;
+    transition: transform 0.3s ease;
+    height: 300px; 
+    border: 1px solid #ccc;
+}
+
+.carousel-cell-5 img {
+    width: 100%;
+    height: auto;
+    display: block;
+    object-fit: contain; /* Adjust object-fit to cover */
+    margin-top: auto; /* Push image to the bottom */
+    transition: transform 0.3s ease;
+
+}
+
+
+.carousel-cell-5:hover img {
+    transform: scale(1.05); /* Scale the image on hover */
+}
+
+#ac-repair-appliances
+.carousel-prev-5,
+.carousel-next-5 {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    background-color: rgba(0, 0, 0, 0.5);
+    border: none;
+    border-radius: 50%;
+    color: white;
+    font-size: 24px;
+    width: 40px;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    z-index: 10;
+    opacity: 0.8;
+    transition: opacity 0.3s ease;
+}
+
+.carousel-prev-5:hover,
+.carousel-next-5:hover {
+    opacity: 1;
+}
+
+.carousel-prev-5 {
+   
+    left: -20px;
+}
+
+.carousel-next-5 {
+    right: -20px;
+}

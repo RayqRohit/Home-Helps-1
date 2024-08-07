@@ -1,0 +1,132 @@
+
+#most-booked-section{
+    padding-block: 50px;
+}
+
+.booked-section-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    max-width: 1300px;
+    margin: auto;
+    flex-direction: column;
+
+}
+
+#most-booked-section .carousel-container {
+    position: relative;
+    width: 100%;
+    margin: auto;
+    /* overflow: hidden; */
+}
+
+.carousel {
+    display: flex;
+    transition: transform 0.5s ease-in-out;
+}
+
+.carousel-track-3 {
+    display: flex;
+    transition: transform 0.5s ease-in-out;
+    gap: 15px;
+   
+}
+
+.carousel-cell-3 {
+    min-width: 18.9%;
+    /* Show 5 items at a time */
+    box-sizing: border-box;
+    /* padding: 0 10px; */
+    position: relative;
+    overflow: hidden;
+    border-radius: 11px;
+    transition: transform 0.3s ease;
+    
+ 
+}
+
+.carousel-cell-3:first-child{
+    margin-left: 2px;
+}
+
+.carousel-cell-3 a {
+    text-decoration: none;
+    color: inherit;
+}
+
+.carousel-cell-3 p {
+    margin-top: 18px;
+    font-size: 15px;
+    font-weight: bold;
+   margin-bottom: 10px;
+    color: #333;
+}
+
+.carousel-cell-3 span{
+    display: block; /* Ensure spans are on separate lines */
+    margin-bottom: 10px; /* Adjust this value as needed */
+    font-size: 14px; /* Adjust font size */
+    color: #555; /* Text color */
+}
+
+.booking-title {
+    margin-bottom: 30px;
+    align-self: flex-start;
+    /* Align self to flex-start */
+}
+
+.booking-title h1 {
+    font-family: var(--heading-font);
+}
+
+.carousel-cell-3 img {
+    width: 100%;
+    height: auto;
+    display: block;
+    border-radius: 11px;
+    object-fit: cover;
+    transition: transform 0.3s ease;
+}
+
+.carousel-cell-3:hover img {
+    transform: scale(1.05); 
+}
+
+
+#most-booked-section 
+.carousel-prev-3,
+.carousel-next-3 {
+    position: absolute;
+    top: 45%;
+    transform: translateY(-50%);
+    background-color: rgba(0, 0, 0, 0.5);
+    border: none;
+    border-radius: 50%;
+    color: white;
+    font-size: 24px;
+    width: 40px;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    z-index: 10;
+    opacity: 0.8;
+    transition: opacity 0.3s ease;
+}
+
+.carousel-prev-3:hover,
+.carousel-next-3:hover {
+    opacity: 1;
+}
+
+.carousel-prev-3 {
+   
+    left: -20px;
+}
+
+.carousel-next-3 {
+    right: -20px;
+}
+

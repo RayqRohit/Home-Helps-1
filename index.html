@@ -1,0 +1,1158 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home-Helps</title>
+
+    <!-- icons kit -->
+    <script src="https://kit.fontawesome.com/51d768ed59.js" crossorigin="anonymous"></script>
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@4.3.0/fonts/remixicon.css" rel="stylesheet" />
+
+    <!-- slider kit -->
+    <link rel="stylesheet" href="https://unpkg.com/flickity@2/dist/flickity.min.css">
+
+    <link rel="stylesheet" href="./index.css">
+    <link rel="stylesheet" href="./components/styles/preloader.css">
+    <link rel="stylesheet" href="./components/styles/navbar.css">
+    <link rel="stylesheet" href="./components/styles/banner.css">
+    <link rel="stylesheet" href="./components/styles/header.css">
+    <link rel="stylesheet" href="./components/styles/service-video.css">
+    <link rel="stylesheet" href="./components/styles/slider2.css">
+    <link rel="stylesheet" href="./components/styles/work-section.css">
+    <link rel="stylesheet" href="./components/styles/booked-section.css">
+    <link rel="stylesheet" href="./components/styles/womens-sales.css">
+    <link rel="stylesheet" href="./components/styles/women-spa-section.css">
+    <link rel="stylesheet" href="./components/styles/banner2.css">
+    <link rel="stylesheet" href="./components/styles/appliance-repair.css">
+    <link rel="stylesheet" href="./components/styles/quick-home-appliances.css">
+    <link rel="stylesheet" href="./components/styles/footer.css">
+    <link rel="stylesheet" href="./components/styles/main-footer-section.css">
+    <link rel="stylesheet" href="./components/styles/modal.css">
+    <link rel="stylesheet" href="./components/styles/account.css">
+    <link rel="shortcut icon" href="/assets/images/favicon-logo.png" type="image/x-icon">
+
+
+
+</head>
+
+<body>
+    <!-- preloader part -->
+    <div id="preloader">
+        <div class="loader-content">
+            <img src="./assets/images/logo2.png" alt="Loading Image" class="loader-image">
+            <div class="loading-bar">
+                <div class="loading-line"></div>
+            </div>
+        </div>
+    </div>
+
+    <!-- real website code goes here -->
+    <div id="content" style="display: none;"> <!--  style="display: none; -->
+
+
+        <!-- navbar -->
+        <nav>
+            <div class="container">
+                <div class="logo">
+                    <a href="./index.html" class="logo-img" aria-label="Go to Homepage">
+                        <img src="./assets/images/logo2.png" alt="Logo">
+
+                    </a>
+
+                    <a href="./components/pages/navbar/native.html" target="_blank" class="native">
+                        <p>Native</p>
+                    </a>
+
+                </div>
+
+                <div class="nav-inputs">
+                    <div class="input-group" id="location-input-group">
+                        <i class="fa-solid fa-location-dot"></i>
+                        <input type="text" placeholder="Enter Location">
+                        <i class="fa-solid fa-angle-down"></i>
+                    </div>
+
+                    <div class="input-group">
+                        <i class="fa-solid fa-magnifying-glass"></i>
+                        <input type="text" id="search-input" placeholder="Search for">
+                    </div>
+                </div>
+
+                <div class="nav-icons">
+                    <a href="" aria-label="Bookmarks">
+                        <i class="ri-bookmark-2-line"></i>
+                    </a>
+                    <a href="" aria-label="Shopping Cart">
+                        <i class="ri-shopping-cart-2-line"></i>
+                    </a>
+
+                    <div class="nav-user-icon online profile"> <!--  onclick="settingsMenuToggle()-->
+                        <a href="/components/pages/account-section/account.html"
+                            aria-label="Account">
+                            <i class="ri-account-circle-line"></i>
+                        </a>
+                    </div>
+                </div>
+            </div>
+
+        </nav>
+
+
+        <!-- modal section 1-->
+        <div id="location-modal" class="modal">
+            <div class="modal-content">
+                <span class="close">&times;</span>
+
+                <div class="input-wrapper">
+                    <i class="ri-arrow-left-line"></i>
+                    <input type="text" placeholder="Search for your location/society/apartment">
+                </div>
+
+                <div class="location-tracker">
+                    <i class="ri-crosshair-2-line"></i>
+                    <p>Use my current location</p>
+                </div>
+
+                <!-- Add content for the modal here -->
+            </div>
+        </div>
+
+
+
+
+
+
+        <!-- banner section -->
+
+        <div class="top-banner">
+            <div class="container">
+                <div class="small-text banner-text">
+                    📣 Save 10% on Every Service at ₹550
+                </div>
+
+            </div>
+
+        </div>
+
+
+        <!-- header section -->
+        <header>
+            <div class="container">
+                <div class="left">
+
+                    <div class="h-text">
+                        <h1>Home services at your doorstep</h1>
+                    </div>
+
+                    <div class="h-details-container">
+                        <div class="h-details-text">
+                            <h2>What are you Looking For?</h2>
+
+                            <div class="h-row">
+                                <div style="margin-right: 20px;" class="h-img">
+                                    <img class="service-img" src="./assets/images/header-images/1.png" alt="">
+                                    <p>Women's salon and Spa</p>
+                                </div>
+                                <div style="margin-right: 20px;" class="h-img">
+                                    <img class="service-img" src="./assets/images/header-images/2.png" alt="">
+                                    <p>Men's salon and Massage</p>
+                                </div>
+                                <div class="h-img">
+                                    <img class="service-img" src="./assets/images/header-images/3.png" alt="">
+                                    <p>Ac and Appliance Repair</p>
+                                </div>
+
+                            </div>
+
+                            <div class="h-col">
+
+                                <div>
+                                    <img src="./assets/images/header-images/4.png" alt="">
+                                    <p>Cleaning</p>
+                                </div>
+                                <div>
+                                    <img src="./assets/images/header-images/5.png" alt="">
+                                    <p>Electrician</p>
+                                </div>
+                                <div>
+                                    <img src="./assets/images/header-images/6.png" alt="">
+                                    <p>Water</p>
+                                </div>
+                                <div>
+                                    <img src="./assets/images/header-images/7.png" alt="">
+                                    <p>Home Painting</p>
+                                </div>
+
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="rating-section">
+                        <div class="rating-card">
+                            <i class="ri-star-line"></i>
+                            <div>
+                                <h2>4.5</h2>
+                                <p>Service Rating</p>
+                            </div>
+                        </div>
+                        <div class="rating-card">
+                            <i class="fa-solid fa-users"></i>
+                            <div>
+                                <h2>5M+</h2>
+                                <p>Customers Globally</p>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+
+                <div class="right">
+
+                    <img src="./assets/images/header-images/8.png" alt="">
+
+                </div>
+            </div>
+        </header>
+
+        <!-- Modal Section 2 -->
+        <div id="service-modal" class="modal">
+            <div class="modal-content">
+                <span class="close">&times;</span>
+                <div class="h-details-text">
+                    <h2>What are you Looking For?</h2>
+
+                    <div class="h-row">
+                        <div style="margin-right: 20px;" class="h-img">
+                            <img class="service-img" src="./assets/images/header-images/1.png" alt="">
+                            <p>Women's salon and Spa</p>
+                        </div>
+                        <div style="margin-right: 20px;" class="h-img">
+                            <img class="service-img" src="./assets/images/header-images/2.png" alt="">
+                            <p>Men's salon and Massage</p>
+                        </div>
+                        <div class="h-img">
+                            <img class="service-img" src="./assets/images/header-images/3.png" alt="">
+                            <p>Ac and Appliance Repair</p>
+                        </div>
+
+
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+        <!-- service video section -->
+
+        <div id="service-video-section">
+            <div class="container">
+                <h1>Mindful arrangements</h1>
+                <p>Of our finest experiences</p>
+
+
+                <div class="carousel-container">
+                    <button class="carousel-prev"><i class="ri-arrow-left-s-fill"></i></button>
+                    <div class="carousel">
+                        <div class="carousel-track">
+                            <div class="carousel-cell">
+                                <img src="./assets/images/service-video-section-images/men massage.jpg" alt="Image 1">
+                                <p>Massage for Men</p>
+                            </div>
+                            <div class="carousel-cell">
+                                <img src="./assets/images/service-video-section-images/bathroom services.jpg"
+                                    alt="Image 2">
+                                <p>Bathroom Cleaning</p>
+                            </div>
+                            <div class="carousel-cell">
+                                <img src="./assets/images/service-video-section-images/power saving.jpg" alt="Image 3">
+                                <p>Powersaver AC Servicing</p>
+                            </div>
+                            <div class="carousel-cell">
+                                <img src="./assets/images/service-video-section-images/painting.jpg" alt="Image 4">
+                                <p>Paints Studio</p>
+                            </div>
+                            <div class="carousel-cell">
+                                <img src="./assets/images/service-video-section-images/haircut.jpg" alt="Image 5">
+                                <p>Men's Haircut</p>
+                            </div>
+                            <div class="carousel-cell">
+                                <img src="./assets/images/service-video-section-images/spa women.jpg" alt="Image 6">
+                                <p>SPA for Women</p>
+                            </div>
+                            <div class="carousel-cell">
+                                <img src="./assets/images/service-video-section-images/waxing.jpg" alt="Image 7">
+                                <p>Roll on Waxing</p>
+                            </div>
+                            <div class="carousel-cell">
+                                <img src="./assets/images/service-video-section-images/plumbing.jpg" alt="Image 8">
+                                <p>Plumbing Work</p>
+                            </div>
+                        </div>
+                    </div>
+                    <button class="carousel-next"><i class="ri-arrow-right-s-fill"></i></button>
+                </div>
+            </div>
+        </div>
+
+
+        <!-- slider section 2 -->
+
+
+        <div id="service-video-section-2">
+            <div class="container">
+                <div class="carousel-container">
+                    <button class="carousel-prev-2"><i class="ri-arrow-left-s-fill"></i></button>
+                    <div class="carousel">
+                        <div class="carousel-track-2">
+                            <div class="carousel-cell-2">
+                                <a href="/components/pages/purchase-category/purchase-category.html">
+                                    <img src="./assets/images/slider-2 images/1.png" alt="Image 1">
+                                </a>
+
+                            </div>
+                            <div class="carousel-cell-2">
+                                <a href="/components/pages/purchase-category/AcAndRepair.html">
+                                    <img src="./assets/images/slider-2 images/2.png" alt="Image 1">
+                                </a>
+
+                            </div>
+                            <div class="carousel-cell-2">
+                                <a href="/components/pages/purchase-category/bathroomAndCleaning.html">
+                                    <img src="./assets/images/slider-2 images/3.png" alt="Image 1">
+                                </a>
+
+                            </div>
+                            <div class="carousel-cell-2">
+                                <a href="/components/pages/purchase-category/home-painting.html">
+                                    <img src="./assets/images/slider-2 images/4.png" alt="Image 1">
+                                </a>
+
+                            </div>
+                            <div class="carousel-cell-2">
+                                <a href="/components/pages/purchase-category/waxing.html">
+                                    <img src="./assets/images/slider-2 images/5.png" alt="Image 1">
+                                </a>
+
+                            </div>
+                            <div class="carousel-cell-2">
+                                <a href="/components/pages/purchase-category/post-workout.html">
+                                    <img src="./assets/images/slider-2 images/6.png" alt="Image 1">
+                                </a>
+
+                            </div>
+                            <div class="carousel-cell-2">
+                                <a href="/components/pages/purchase-category/post-workout.html">
+                                    <img src="./assets/images/slider-2 images/7.png" alt="Image 1">
+                                </a>
+
+                            </div>
+                            <div class="carousel-cell-2">
+                                <a href="/components/pages/purchase-category/haircut.html">
+                                    <img src="./assets/images/slider-2 images/8.png" alt="Image 1">
+                                </a>
+
+                            </div>
+                            <div class="carousel-cell-2">
+                                <a href="/components/pages/purchase-category/tap-repair.html">
+                                    <img src="./assets/images/slider-2 images/9.png" alt="Image 1">
+                                </a>
+                            </div>
+                            <!-- Add more carousel cells as needed -->
+                        </div>
+                    </div>
+                    <button class="carousel-next-2"><i class="ri-arrow-right-s-fill"></i></button>
+                </div>
+            </div>
+        </div>
+
+
+        <!-- work section-1 -->
+
+        <div id="work-section">
+            <div class="work-container">
+                <div class="work-title">
+                    <h1>New and noteworthy</h1>
+                </div>
+
+                <div class="service-block">
+                    <div class="service-blocks">
+                        <a href="components/pages/purchase-category/purchase-category.html">
+                            <img src="./assets/images/work-images/1.png" alt="">
+                            <p>Native Water Purifier</p>
+                        </a>
+                    </div>
+                    <div class="service-blocks">
+                        <a href="/components/pages/work-section/bathroomAndCleaning.html">
+                            <img src="./assets/images/work-images/2.png" alt="">
+                            <p>Bathroom & Kitchen Cleaning</p>
+                        </a>
+                    </div>
+                    <div class="service-blocks">
+                        <a href="/components/pages/work-section/home-painting.html">
+                            <img src="./assets/images/work-images/3.png" alt="">
+                            <p>Home Painting</p>
+                        </a>
+                    </div>
+                    <div class="service-blocks">
+                        <a href="/components/pages/work-section/hair-studio.html">
+                            <img src="./assets/images/work-images/4.png" alt="">
+                            <p>Hair Studio for Women</p>
+                        </a>
+                    </div>
+                    <div class="service-blocks">
+                        <a href="/components/pages/work-section/AcAndRepair.html">
+                            <img src="./assets/images/work-images/5.png" alt="">
+                            <p>AC Service and Repair</p>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+
+        <!--booking section (carousel section-3)-->
+        <div id="most-booked-section">
+            <div class="booked-section-container container">
+                <div class="booking-title">
+                    <h1>Most booked services</h1>
+                </div>
+
+                <div class="service-bookings-block">
+                    <!-- Carousel for new section -->
+                    <div class="carousel-container">
+                        <button class="carousel-prev-3"><i class="ri-arrow-left-s-fill"></i></button>
+                        <div class="carousel carousel-3">
+                            <div class="carousel-track-3">
+                                <div class="carousel-cell-3">
+                                    <a href="/components/pages/booking-section/bathroomAndCleaning.html">
+                                        <img src="./assets/images/booking images/1.png" alt="">
+                                        <p>Intense bathroom cleaning</p>
+                                        <span><i class="ri-star-fill"></i> 4.78 (1.6M)</span>
+
+                                        <span>₹499</span>
+
+                                    </a>
+                                </div>
+                                <div class="carousel-cell-3">
+                                    <a href="/components/pages/booking-section/washing-maching.html">
+                                        <img src="./assets/images/booking images/2.png" alt="">
+                                        <p>Top load (fully automatic)
+                                            checkup</p>
+                                        <span> <i class="ri-star-fill"></i>4.78 (1.6M)</span>
+
+                                        <span>₹499</span>
+
+
+                                    </a>
+                                </div>
+                                <div class="carousel-cell-3">
+                                    <a href="./components/pages/booking-section/AcAndRepair.html">
+                                        <img src="./assets/images/booking images/3.png" alt="">
+                                        <p>AC repair (split/ window)</p>
+                                        <span><i class="ri-star-fill"></i> 4.78 (1.6M)</span>
+
+                                        <span>₹499</span>
+
+
+                                    </a>
+                                </div>
+                                <div class="carousel-cell-3">
+                                    <a href="/components/pages/booking-section/bathroomAndCleaning.html">
+                                        <img src="./assets/images/booking images/4.png" alt="">
+                                        <p>Classic bathroom cleaning</p>
+                                        <span><i class="ri-star-fill"></i> 4.78 (1.6M)</span>
+
+                                        <span>₹499</span>
+
+
+                                    </a>
+                                </div>
+                                <div class="carousel-cell-3">
+                                    <a href="/components/pages/booking-section/AcAndRepair.html">
+                                        <img src="./assets/images/booking images/5.png" alt="">
+                                        <p>Power Saver AC service</p>
+                                        <span><i class="ri-star-fill"></i> 4.78 (1.6M)</span>
+
+                                        <span>₹499</span>
+
+
+                                    </a>
+                                </div>
+                                <!-- Additional items as needed -->
+                                <div class="carousel-cell-3">
+                                    <a href="/components/pages/booking-section/sofa-cleaning.html">
+                                        <img src="./assets/images/booking images/6.png" alt="">
+                                        <p>Sofa cleaning</p>
+                                        <span><i class="ri-star-fill"></i> 4.78 (1.6M)</span>
+
+                                        <span>₹499</span>
+
+
+                                    </a>
+                                </div>
+                                <div class="carousel-cell-3">
+                                    <a href="/components/pages/booking-section/haircut.html">
+                                        <img src="./assets/images/booking images/7.png" alt="">
+                                        <p>Haircut for men</p>
+                                        <span><i class="ri-star-fill"></i> 4.78 (1.6M)</span>
+
+                                        <span>₹499</span>
+
+
+                                    </a>
+                                </div>
+                                <div class="carousel-cell-3">
+                                    <a href="/components/pages/booking-section/tap-repair.html">
+                                        <img src="./assets/images/booking images/8.png" alt="">
+                                        <p>Tap repair</p>
+                                        <span><i class="ri-star-fill"></i> 4.78 (1.6M)</span>
+
+                                        <span>₹499</span>
+
+
+                                    </a>
+                                </div>
+                                <div class="carousel-cell-3">
+                                    <a href="/components/pages/booking-section/tap-repair.html">
+                                        <img src="./assets/images/booking images/9.png" alt="">
+                                        <p>Jet spray (installation/ repair)</p>
+                                        <span><i class="ri-star-fill"></i> 4.78 (1.6M)</span>
+
+                                        <span>₹499</span>
+
+
+                                    </a>
+                                </div>
+                                <div class="carousel-cell-3">
+                                    <a href="/components/pages/booking-section/washing-maching.html">
+                                        <img src="./assets/images/booking images/10.png" alt="">
+                                        <p>Front load (fully automatic)
+                                            checkup</p>
+                                        <span><i class="ri-star-fill"></i> 4.78 (1.6M)</span>
+
+                                        <span>₹499</span>
+
+
+                                    </a>
+                                </div>
+                                <!-- Add more carousel items here -->
+                            </div>
+                        </div>
+                        <button class="carousel-next-3"><i class="ri-arrow-right-s-fill"></i></button>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+        <!--women Salon section (carousel section-4) -->
+
+        <div id="women-sales-section">
+            <div class="women-sales-section-container container">
+                <div class="sales-title">
+                    <h1>Salon for Women</h1>
+                    <button class="sales-button">See More</button>
+                </div>
+
+                <div class="sales-service-bookings-block">
+                    <!-- Carousel for new section -->
+                    <div class="carousel-container">
+                        <button class="carousel-prev-4"><i class="ri-arrow-left-s-fill"></i></button>
+                        <div class="carousel carousel-4">
+                            <div class="carousel-track-4">
+                                <div class="carousel-cell-4">
+                                    <a href="./components/pages/women-salon/waxing.html">
+                                        <img src="./assets/images/women-sales images/1.png" alt="">
+                                        <p>Waxing</p>
+
+
+                                    </a>
+                                </div>
+                                <div class="carousel-cell-4">
+                                    <a href="./components/pages/women-salon/waxing.html">
+                                        <img src="./assets/images/women-sales images/2.png" alt="">
+                                        <p>Pedicure</p>
+
+
+
+                                    </a>
+                                </div>
+                                <div class="carousel-cell-4">
+                                    <a href="./components/pages/women-salon/waxing.html">
+                                        <img src="./assets/images/women-sales images/3.png" alt="">
+                                        <p>Manicure</p>
+
+
+
+                                    </a>
+                                </div>
+                                <div class="carousel-cell-4">
+                                    <a href="./components/pages/women-salon/waxing.html">
+                                        <img src="./assets/images/women-sales images/4.png" alt="">
+                                        <p>Hair care</p>
+
+
+
+                                    </a>
+                                </div>
+                                <div class="carousel-cell-4">
+                                    <a href="./components/pages/women-salon/waxing.html">
+                                        <img src="./assets/images/women-sales images/5.png" alt="">
+                                        <p>Bleach & Detan</p>
+
+
+
+                                    </a>
+                                </div>
+                                <!-- Additional items as needed -->
+                                <div class="carousel-cell-4">
+                                    <a href="./components/pages/women-salon/waxing.html">
+                                        <img src="./assets/images/women-sales images/6.png" alt="">
+                                        <p>Facial & Cleanup</p>
+
+
+
+                                    </a>
+                                </div>
+                                <div class="carousel-cell-4">
+                                    <a href="./components/pages/women-salon/waxing.html">
+                                        <img src="./assets/images/women-sales images/7.png" alt="">
+                                        <p>Threading & Face waxing</p>
+
+
+
+                                    </a>
+                                </div>
+
+
+
+                                <!-- Add more carousel items here -->
+                            </div>
+                        </div>
+                        <button class="carousel-next-4"><i class="ri-arrow-right-s-fill"></i></button>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+        <!-- women spa section -->
+
+        <div id="women-spa-section">
+            <div class="women-spa-section-container container">
+                <div class="spa-section-title">
+                    <h1>Spa for Women</h1>
+                </div>
+
+
+                <div class="spa-service-bookings-block">
+
+                    <div class="spa-track-container">
+                        <div class="spa-block">
+                            <a href="./components/pages/women-spa/stress-relief.html">
+                                <img src="./assets/images/spa-images/1.png" alt="">
+                                <p>Stress relief</p>
+
+                            </a>
+                        </div>
+                        <div class="spa-block">
+                            <a href="./components/pages/women-spa/stress-relief.html">
+                                <img src="./assets/images/spa-images/2.png" alt="">
+                                <p>Pain relief</p>
+
+                            </a>
+                        </div>
+                        <div class="spa-block">
+                            <a href="./components/pages/women-spa/stress-relief.html">
+                                <img src="./assets/images/spa-images/3.png" alt="">
+                                <p>Natural skincare</p>
+
+                            </a>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+
+        <!--Cleaning & pest control section - 2 -->
+        <div id="women-spa-section">
+            <div class="women-spa-section-container container">
+                <div class="spa-section-title">
+                    <h1>Cleaning & pest control</h1>
+                </div>
+
+
+                <div class="spa-service-bookings-block">
+
+                    <div class="spa-track-container">
+                        <div class="spa-block">
+                            <a href="/components/pages/cleaning-and-pest-control/bathroomAndCleaning.html">
+                                <img src="./assets/images/spa-sales-2 images/1.png" alt="">
+                                <p>Bathroom & kitchen
+                                    cleaning</p>
+
+                            </a>
+                        </div>
+                        <div class="spa-block">
+                            <a href="./components/pages/cleaning-and-pest-control/home-cleaning.html">
+                                <img src="./assets/images/spa-sales-2 images/2.png" alt="">
+                                <p>Full Home Cleaning</p>
+
+                            </a>
+                        </div>
+                        <div class="spa-block">
+                            <a href="/components/pages/cleaning-and-pest-control/sofa-cleaning.html">
+                                <img src="./assets/images/spa-sales-2 images/3.png" alt="">
+                                <p>Sofa & Carpet Cleaning</p>
+
+                            </a>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+
+
+        <!-- banner - 2 Section -->
+        <div id="banner2-section">
+            <div class="container">
+
+
+                <div class="banner-image-container">
+                    <a href="./components/pages/purchase-category/purchase-category.html">
+                        <img src="./assets/images/banner-2.png" alt="">
+                    </a>
+                </div>
+
+            </div>
+        </div>
+
+
+        <!-- AC repair appliances -->
+
+        <div id="ac-repair-appliances">
+            <div class="ac-repair-section-container container">
+                <div class="ac-repair-title">
+                    <h1>AC & Appliance Repair</h1>
+                    <button class="sales-button">See More</button>
+                </div>
+
+                <div class="ac-repair-service-bookings-block">
+                    <!-- Carousel for new section -->
+                    <div class="carousel-container">
+                        <button class="carousel-prev-5"><i class="ri-arrow-left-s-fill"></i></button>
+                        <div class="carousel carousel-5">
+                            <div class="carousel-track-5">
+                                <div class="carousel-cell-5">
+                                    <a href="/components/pages/Appliances-Repair/AcAndRepair.html">
+                                        <img src="./assets/images/appliances-repair images/1-.png" alt="">
+                                        <p>AC Service & Repair</p>
+
+
+                                    </a>
+                                </div>
+                                <div class="carousel-cell-5">
+                                    <a href="./components/pages/Appliances-Repair/washing-maching.html">
+                                        <img src="./assets/images/appliances-repair images/2-.png">
+                                        <p>Washing Machine Repair</p>
+
+
+
+                                    </a>
+                                </div>
+                                <div class="carousel-cell-5">
+                                    <a href="/components/pages/Appliances-Repair/water-purifier.html">
+                                        <img src="./assets/images/appliances-repair images/3-.png">
+                                        <p>Water Purifier Repair</p>
+
+
+
+                                    </a>
+                                </div>
+                                <div class="carousel-cell-5">
+                                    <a href="/components/pages/Appliances-Repair/refrigerator-repair.html">
+                                        <img src="./assets/images/appliances-repair images/4-.png" alt="">
+                                        <p>Refrigerator Repair</p>
+
+
+
+                                    </a>
+                                </div>
+                                <div class="carousel-cell-5">
+                                    <a href="/components/pages/Appliances-Repair/microwave-repair.html">
+                                        <img src="./assets/images/appliances-repair images/5-.png" alt="">
+                                        <p>Microwave Repair</p>
+
+
+
+                                    </a>
+                                </div>
+                                <!-- Additional items as needed -->
+                                <div class="carousel-cell-5">
+                                    <a href="/components/pages/Appliances-Repair/chimney-repair.html">
+                                        <img src="./assets/images/appliances-repair images/6-.png" alt="">
+                                        <p>Chimney Repair</p>
+
+
+
+                                    </a>
+                                </div>
+                                <div class="carousel-cell-5">
+                                    <a href="/components/pages/Appliances-Repair/geyser-repair.html">
+                                        <img src="./assets/images/appliances-repair images/7-.png" alt="">
+                                        <p>Geyser Repair</p>
+
+
+
+                                    </a>
+                                </div>
+
+
+
+                                <!-- Add more carousel items here -->
+                            </div>
+                        </div>
+                        <button class="carousel-next-5"><i class="ri-arrow-right-s-fill"></i></button>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+        <!-- quick-home repairs  -->
+        <div id="quick-home-appliances">
+            <div class="quick-home-section-container container">
+                <div class="quick-home-title">
+                    <h1>Quick home repairs</h1>
+                    <button class="sales-button">See More</button>
+                </div>
+
+                <div class="quick-home-service-bookings-block">
+                    <!-- Carousel for new section -->
+                    <div class="carousel-container">
+                        <button class="carousel-prev-6"><i class="ri-arrow-left-s-fill"></i></button>
+                        <div class="carousel carousel-6">
+                            <div class="carousel-track-6">
+                                <div class="carousel-cell-6">
+                                    <a href="./components/pages/Quick-Home-services/tap-repair.html">
+                                        <img src="./assets/images/quick-home-work-images/1.png" alt="">
+                                        <p>Tap repair</p>
+                                        <span><i class="ri-star-fill"></i> 4.78 (1.6M)</span>
+
+                                        <span>₹499</span>
+
+                                    </a>
+                                </div>
+                                <div class="carousel-cell-6">
+                                    <a href="/components/pages/Quick-Home-services/tap-repair.html">
+                                        <img src="./assets/images/quick-home-work-images/2.png" alt="">
+                                        <p>Jet spray (installation/ repair)</p>
+                                        <span><i class="ri-star-fill"></i> 4.78 (1.6M)</span>
+
+                                        <span>₹499</span>
+
+                                    </a>
+                                </div>
+                                <div class="carousel-cell-6">
+                                    <a href="/components/pages/Quick-Home-services/fan-repair.html">
+                                        <img src="./assets/images/quick-home-work-images/3.png" alt="">
+                                        <p>Fan repair (ceiling/ exhaust/
+                                            wall)</p>
+                                        <span><i class="ri-star-fill"></i> 4.78 (1.6M)</span>
+
+                                        <span>₹499</span>
+
+                                    </a>
+                                </div>
+                                <div class="carousel-cell-6">
+                                    <a href="./components/pages/Quick-Home-services/fan-repair.html">
+                                        <img src="./assets/images/quick-home-work-images/4.png" alt="">
+                                        <p>Switch/socket replacement</p>
+                                        <span><i class="ri-star-fill"></i> 4.78 (1.6M)</span>
+
+                                        <span>₹499</span>
+
+                                    </a>
+                                </div>
+                                <div class="carousel-cell-6">
+                                    <a href="./components/pages/Quick-Home-services/drillAndHang.html">
+                                        <img src="./assets/images/quick-home-work-images/5.png" alt="">
+                                        <p>Drill & hang (wall decor)</p>
+                                        <span><i class="ri-star-fill"></i> 4.78 (1.6M)</span>
+
+                                        <span>₹499</span>
+
+                                    </a>
+                                </div>
+                                <!-- Additional items as needed -->
+                                <div class="carousel-cell-6">
+                                    <a href="./components/pages/Quick-Home-services/drillAndHang.html">
+                                        <img src="./assets/images/quick-home-work-images/6.png" alt="">
+                                        <p>Minor door repair</p>
+                                        <span><i class="ri-star-fill"></i> 4.78 (1.6M)</span>
+
+                                        <span>₹499</span>
+
+                                    </a>
+                                </div>
+                                <div class="carousel-cell-6">
+                                    <a href="/components/pages/Quick-Home-services/tap-repair.html">
+                                        <img src="./assets/images/quick-home-work-images/7.png" alt="">
+                                        <p>Waste pipe</p>
+                                        <span><i class="ri-star-fill"></i> 4.78 (1.6M)</span>
+
+                                        <span>₹499</span>
+
+                                    </a>
+                                </div>
+                                <div class="carousel-cell-6">
+                                    <a href="/components/pages/Quick-Home-services/tap-repair.html">
+                                        <img src="./assets/images/quick-home-work-images/8.png" alt="">
+                                        <p>Sink (drainage pipe, over the
+                                            ground)</p>
+                                        <span><i class="ri-star-fill"></i> 4.78 (1.6M)</span>
+
+                                        <span>₹499</span>
+
+                                    </a>
+                                </div>
+                                <div class="carousel-cell-6">
+                                    <a href="/components/pages/Quick-Home-services/fan-repair.html">
+                                        <img src="./assets/images/quick-home-work-images/9.png" alt="">
+                                        <p>Switchboard/switchbox repair</p>
+                                        <span><i class="ri-star-fill"></i> 4.78 (1.6M)</span>
+
+                                        <span>₹499</span>
+
+                                    </a>
+                                </div>
+                                <div class="carousel-cell-6">
+                                    <a href="/components/pages/Quick-Home-services/fan-repair.html">
+                                        <img src="./assets/images/quick-home-work-images/10.png" alt="">
+                                        <p>Ceiling fan regulator
+                                            replacement</p>
+                                        <span><i class="ri-star-fill"></i> 4.78 (1.6M)</span>
+
+                                        <span>₹499</span>
+
+                                    </a>
+                                </div>
+
+
+
+                                <!-- Add more carousel items here -->
+                            </div>
+                        </div>
+                        <button class="carousel-next-6"><i class="ri-arrow-right-s-fill"></i></button>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+
+        <!-- mens massage section -->
+        <div id="women-spa-section">
+            <div class="women-spa-section-container container">
+                <div class="spa-section-title">
+                    <h1>Massage for Men</h1>
+                </div>
+
+
+                <div class="spa-service-bookings-block">
+
+                    <div class="spa-track-container">
+                        <div class="spa-block">
+                            <a href="./components/pages/Mens-Massage-section/post-workout.html">
+                                <img src="./assets/images/mens-massage-section-images/1.png" alt="">
+                                <p>Pain relief</p>
+
+                            </a>
+                        </div>
+                        <div class="spa-block">
+                            <a href="./components/pages/Mens-Massage-section/post-workout.html">
+                                <img src="./assets/images/mens-massage-section-images/2.png" alt="">
+                                <p>Post workout</p>
+
+                            </a>
+                        </div>
+                        <div class="spa-block">
+                            <a href="./components/pages/Mens-Massage-section/post-workout.html">
+                                <img src="./assets/images/mens-massage-section-images/3.png" alt="">
+                                <p>Stress relief</p>
+
+                            </a>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+
+
+
+        <!-- Haircut section -->
+        <div id="women-spa-section">
+            <div class="women-spa-section-container container">
+                <div class="spa-section-title">
+                    <h1>Salon for kids & mens</h1>
+                </div>
+
+
+                <div class="spa-service-bookings-block">
+
+                    <div class="spa-track-container">
+                        <div class="spa-block">
+                            <a href="./components/pages/Salon-Section/haircut.html">
+                                <img src="./assets/images/haricut-section-images/1.png" alt="">
+                                <p>Haircut & Beard
+                                    grooming shaving</p>
+
+                            </a>
+                        </div>
+                        <div class="spa-block">
+                            <a href="./components/pages/Salon-Section/haircut.html">
+                                <img src="./assets/images/haricut-section-images/2.png" alt="">
+                                <p>Hair color & Hair spa</p>
+
+                            </a>
+                        </div>
+                        <div class="spa-block">
+                            <a href="./components/pages/Salon-Section/haircut.html">
+                                <img src="./assets/images/haricut-section-images/3.png" alt="">
+                                <p>Pedicure & Manicure</p>
+
+                            </a>
+                        </div>
+                        <div class="spa-block">
+                            <a href="./components/pages/Salon-Section/haircut.html">
+                                <img src="./assets/images/haricut-section-images/4.png" alt="">
+                                <p>Facial & Cleanup</p>
+
+                            </a>
+                        </div>
+
+                    </div>
+
+                </div>
+            </div>
+        </div>
+
+
+
+        <!-- prefooter section -->
+        <footer class="footer">
+            <div class="footer-container">
+                <a href="" id="brand" class="brand-link">
+                    <img src="./assets/images/logo2.png" alt="">
+
+                </a>
+
+                <div>
+                    <a href="" class="footer-link">Documentation</a>
+                    <div class="social-links">
+                        <a class="social-link" href=""><i class="ri-twitter-x-fill"></i></a>
+                        <a class="social-link" href=""><i class="ri-copilot-fill"></i></a>
+                    </div>
+
+                </div>
+
+
+            </div>
+        </footer>
+
+
+
+        <!-- main footer section -->
+        <div class="main-footer-section">
+
+            <div class="container">
+                <div class="main-footer-container">
+
+                    <!-- Logo Section -->
+                    <div class="main-footer-logo">
+                        <img src="./assets/images/logo2.png" alt="Logo">
+                    </div>
+
+                    <!-- Center Section -->
+                    <div class="center-section">
+                        <div class="center-part">
+                            <h2>Company</h2>
+                            <ul>
+                                <li><a href="#">
+                                        About us </a></li>
+                                <li><a href="#">Terms & conditions </a></li>
+                                <li><a href="#">Privacy policy </a></li>
+                                <li><a href="#">
+                                        Anti-discrimination policy </a></li>
+                                <li><a href="#">
+                                        UC impact </a></li>
+                                <li><a href="#">
+                                        Careers </a></li>
+                            </ul>
+                        </div>
+                        <div class="center-part">
+                            <h2>For customers</h2>
+                            <ul>
+                                <li><a href="#">UC reviews </a></li>
+                                <li><a href="#">Categories near you </a></li>
+                                <li><a href="#">Blog </a></li>
+                                <li><a href="#">Contact us</a></li>
+                            </ul>
+                        </div>
+                        <div class="center-part">
+                            <h2>For partners</h2>
+                            <ul>
+                                <li><a href="#">Register as a professional </a></li>
+                                <li><a href="#">For Promotions</a></li>
+
+                            </ul>
+                        </div>
+                        <div class="center-part">
+                            <h2>Social links</h2>
+                            <ul>
+                                <div class="social-icons">
+                                    <a href=""><i class="ri-twitter-x-line"></i></a>
+                                    <a href=""><i class="ri-instagram-line"></i></a>
+                                    <a href=""><i class="ri-facebook-circle-line"></i></a>
+                                    <a href=""><i class="ri-linkedin-box-line"></i></a>
+                                </div>
+
+                                <li><a href=""><img src="/assets/images/social media/appstore.png" alt=""></a></li>
+                                <li><a href=""><img src="/assets/images/social media/googleplay.png" alt=""></a></li>
+                            </ul>
+                        </div>
+                    </div>
+
+                    <!-- Last Section -->
+                    <div class="last-section">
+                        <p>© Copyright 2024 Home Helps. All rights reserved.</p>
+                    </div>
+
+                </div>
+            </div>
+
+        </div>
+
+
+
+
+
+    </div>
+
+
+
+
+
+
+    <script src="./index.js"></script>
+
+
+</body>
+
+</html>

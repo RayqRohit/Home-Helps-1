@@ -1,0 +1,170 @@
+@import url('https://fonts.googleapis.com/css2?family=Bree+Serif&family=Dancing+Script:wght@400;600&family=Kalam:wght@700&family=Kanit&family=Kaushan+Script&family=Merriweather&family=Montserrat:wght@400;500&family=Poor+Story&family=Poppins:wght@400;700&family=Roboto&family=Sacramento&family=Sigmar&family=Ubuntu&display=swap');
+
+
+
+:root {
+    --heading-font: "Poppins", sans-serif;
+    --body-font: "Montserrat", sans-serif;
+    --primary-color: #147df0;
+    --primary-color-light: #5370f8;
+    --secondary-color: #f1f1f1;
+
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: var(--body-font);
+}
+
+nav {
+    background-color: #fff;
+    box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.05);
+    position: fixed;
+    /* Fix the navbar to the top */
+    top: 0;
+    /* Align to the top of the viewport */
+    left: 0;
+    /* Align to the left edge of the viewport */
+    width: 100%;
+    /* Full width of the viewport */
+    z-index: 1000;
+    /* Ensure it sits above other content */
+
+}
+
+.container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    max-width: 1300px;
+    margin: auto;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+    width: 130px;
+    height: 80px;
+
+}
+
+.logo a {
+    text-decoration: none;
+    color: inherit;
+}
+
+.logo .logo-img {
+    display: flex;
+    align-items: center;
+    margin-right: 40px;
+}
+
+.logo img {
+
+
+    width: 130px;
+    /* Adjust width as needed */
+    height: 80px;
+}
+
+.logo p {
+    font-size: 16px;
+    font-weight: bold;
+    color: #333;
+}
+
+.nav-inputs {
+    display: flex;
+    gap: 15px;
+
+}
+
+
+
+.input-group {
+    display: flex;
+    align-items: center;
+    background-color: #f1f1f1;
+    padding: 5px 10px;
+    border-radius: 5px;
+}
+
+.input-group i {
+    margin-right: 5px;
+    color: #888;
+}
+
+.input-group input {
+    border: none;
+    outline: none;
+    background: none;
+    padding: 5px;
+    font-family: var(--heading-font);
+    transition: placeholder-color 0.2s ease;
+}
+
+.input-group input::placeholder {
+    color: #888;
+    /* Light gray color */
+    transition: color 0.2s ease;
+    /* Smooth transition for placeholder color */
+}
+
+.input-group #search-input {
+    width: 200px;
+}
+
+.nav-icons {
+    display: flex;
+    gap: 35px;
+}
+
+.nav-icons i {
+    font-size: 23px;
+    cursor: pointer;
+}
+
+.nav-icons i:hover {
+    color: #007BFF;
+}
+
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+.logo a {
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    color: inherit;
+}
+
+.nav-icons a {
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    color: inherit;
+}
+
+.nav-icons i {
+    font-size: 23px;
+    cursor: pointer;
+    transition: all 0.2s ease;
+}
+
+
+.nav-icons a:hover i {
+    color: #007BFF;
+}
+
+
+/* another modal */
+

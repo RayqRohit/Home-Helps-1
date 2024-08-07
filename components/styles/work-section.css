@@ -1,0 +1,64 @@
+#work-section{
+padding-block: 20px;
+}
+
+.work-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    max-width: 1300px;
+    margin: auto;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.work-title {
+    margin-bottom: 30px;
+    align-self: flex-start; /* Align self to flex-start */
+}
+
+.work-title h1{
+   font-family: var(--heading-font);
+}
+
+
+
+.service-block {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    gap: 20px; /* Adjust the gap between grid items as needed */
+    width: 100%;
+}
+
+.service-blocks {
+    position: relative;
+    overflow: hidden;
+    border-radius: 10px;
+}
+
+.service-blocks a {
+    text-decoration: none; 
+    color: inherit; 
+}
+
+.service-blocks p {
+    margin-top: 10px; 
+    font-size: 16px; 
+    font-weight: bold; 
+    color: #333; 
+}
+
+
+.service-blocks img {
+    width: 100%;
+    height: auto;
+    display: block;
+    border-radius: 10px;
+    transition: transform 0.3s ease;
+
+}
+
+.service-blocks:hover img {
+    transform: scale(1.02); /* Scale up the image on hover */
+}

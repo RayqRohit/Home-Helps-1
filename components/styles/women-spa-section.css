@@ -1,0 +1,86 @@
+#women-spa-section {
+    padding-block: 40px;
+}
+
+.women-spa-section-container {
+    display: flex;
+    justify-content: center; /* Center the content horizontally */
+    align-items: center;
+    padding: 10px 20px;
+    max-width: 1300px;
+    margin: auto;
+    flex-direction: column;
+}
+
+.spa-section-title {
+    margin-bottom: 30px;
+    align-self: flex-start;
+}
+
+.spa-section-title h1 {
+    font-family: var(--heading-font);
+}
+
+.women-spa-section-container{
+    display: flex;
+    align-items: flex-start;
+}
+
+.spa-track-container {
+    display: flex;
+    flex-wrap: wrap; /* Wrap items to new lines if needed */
+    gap: 20px; /* Space between items */
+    justify-content: center; /* Center items horizontally */
+    align-items: flex-start;
+}
+
+.spa-block {
+    flex: 1 1 calc(25% - 15px); /* Four items per row with gap */
+    box-sizing: border-box;
+    overflow: hidden;
+    border-radius: 11px;
+    height: 300px; /* Adjust height as needed */
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    
+    transition: transform 0.3s ease; /* Smooth scaling transition */
+    border: 1px solid #ccc;
+}
+
+.spa-block a {
+    text-decoration: none;
+    color: inherit;
+    display: flex;
+    flex-direction: column;
+    height: 100%; /* Full height of the spa block */
+    position: relative;
+}
+
+.spa-block img {
+    width: 100%;
+    height: auto;
+    display: block;
+    border-radius: 11px;
+    object-fit: cover; /* Adjust object-fit to cover */
+    margin-top: auto; /* Push image to the bottom */
+    transition: transform 0.3s ease; /* Smooth scaling transition */
+}
+
+.spa-block p {
+    position: absolute;
+    top: 10px; /* Distance from the top of the spa block */
+    left: 10px; /* Distance from the left edge */
+    right: 10px; /* Distance from the right edge */
+    margin: 0; /* Remove default margins */
+    font-size: 15px;
+    font-weight: bold;
+    color: #333;
+    background-color: rgba(255, 255, 255, 0.7); /* Optional: Background for readability */
+    padding: 10px; /* Optional: Padding around the text */
+    border-radius: 5px; /* Optional: Border radius for the background */
+}
+
+.spa-block:hover img {
+    transform: scale(1.1); /* Scale the image on hover */
+}

@@ -1,0 +1,107 @@
+.main-footer-section {
+    background-color: #f8f8f8; /* Adjust as needed */
+    padding: 20px 0;
+}
+
+
+
+.main-footer-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    flex-direction: column;
+}
+
+.main-footer-logo {
+    width: 100vw;
+    margin-bottom: 15px;
+}
+
+.main-footer-logo img {
+    max-width: 125px; /* Adjust as needed */
+}
+
+.center-section {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    flex: 1;
+    padding: 0 15px;
+    border-bottom: 1px solid gainsboro;
+    max-width: 90%; /* Adjust this percentage to control the width */
+   
+
+}
+
+.center-part {
+    flex: 1 1 22%; /* Adjust as needed */
+    margin: 10px 0;
+
+}
+
+.center-part h2 {
+    font-size: 18px;
+    margin-bottom: 15px;
+    font-family: var(--heading-font);
+}
+
+.center-part ul {
+    list-style: none;
+    padding: 0;
+}
+
+.center-part ul li {
+    margin-bottom: 10px;
+}
+
+.center-part ul li a {
+    text-decoration: none;
+    color: #333; /* Adjust as needed */
+    font-size: 15px;
+    font-family: var(--heading-font);
+    
+}
+
+.center-part ul li a:hover {
+    text-decoration: underline;
+    
+}
+
+.last-section p {
+    font-size: 14px; /* Adjust as needed */
+    color: #666; /* Adjust as needed */
+    transform: translateX(29%);
+    margin-top: 20px;
+;
+}
+
+
+.center-part ul div{
+    display: flex;
+    align-items: center;
+   gap: 13px;
+    flex: 1;
+ 
+    
+}
+
+.center-part ul div a{
+padding: 2%;
+border-radius: 50%;
+background-color: #fff;
+box-shadow: 0 0 5px rgba(0,0,0,0.1);
+}
+
+.center-part ul div a i{
+    font-size: 22px;
+    color: #333;
+    transition: all 0.2s ease;
+}
+
+.center-part ul div a i:hover{
+    color: #007bff;
+}
+
+.social-icons{
+    margin-bottom: 20px;
+}
